@@ -1,0 +1,37 @@
+__slots__ magic
+
+Liên kết các thuộc tính hoặc phương thức mới với các đối tượng trong khi chương trình đang chạy
+Và giới hạn đối tượng loại tùy chỉnh chỉ bị ràng buộc với một số thuộc tính nhất định
+Chú ý: chỉ có tác dụng lên các đối tượng của lớp hiện tại và không có bất kỳ tác dụng nào lên các lớp con
+
+Static methods and class methods
+
+Static methods:
+
+các phương thức chúng ta định nghĩa trong lớp đều là các phương thức đối tượng,
+có nghĩa là các phương thức này là các thông điệp được gửi đến đối tượng
+
+các phương thức chúng ta viết trong lớp không nhất thiết phải là tất cả các phương thức đối tượng
+
+class methods:
+đại diện cho đối tượng của thông tin liên quan đến lớp hiện tại
+có thể lấy thông tin liên quan đến lớp và tạo một đối tượng của lớp
+
+relationship between classes:
+
+có 3 loại:
+
+is-a: inheritance or generalization
+has-a: association
+use-a: dependency
+
+Có thể hoàn thành một số thao tác nhất định dựa trên các lớp hiện có hoặc tạo các lớp mới dựa trên các lớp hiện có
+Note: Đây là một phương pháp kỹ thuật mà tất cả chúng ta đều sử dụng trong công việc hàng ngày.
+
+Inheritance and polymorphism:
+
+inheritance:
+Một cách để làm điều này là để một lớp kế thừa các thuộc tính và phương thức trực tiếp từ một lớp khác, do đó giảm việc viết mã lặp lại
+
+polymorphism:
+có thể làm cho cùng một hành vi của lớp cha có các phiên bản triển khai khác nhau trong lớp con
